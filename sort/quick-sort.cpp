@@ -29,14 +29,11 @@ void quickSort(vector<int> &a, int l, int r){
     }
 }
 
-// Hàm main
+
 int main() {
     vector<int> arr = {10, 7, 8, 9, 1, 5};
     int n = arr.size();
-
     quickSort(arr, 0, n - 1);
-
-    cout << "Mang sau khi sap xep: ";
     for (int x : arr)
         cout << x << " ";
     cout << endl;

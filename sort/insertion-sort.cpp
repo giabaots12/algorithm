@@ -17,10 +17,7 @@ void insertionSort(vector<int>& arr) {
 
 int main() {
     vector<int> arr = {9, 5, 1, 4, 3};
-
     insertionSort(arr);
-
-    cout << "Sorted array: ";
     for (int x : arr)
         cout << x << " ";
     cout << endl;

@@ -53,8 +53,6 @@ void mergeSort(vector<int> &a, int l, int r){
 int main() {
     vector<int> arr = {5, 2, 4, 6, 1, 3};
     mergeSort(arr, 0, arr.size() - 1);
-
-    cout << "Sorted array: ";
     for (int x : arr)
         cout << x << " ";
     return 0;

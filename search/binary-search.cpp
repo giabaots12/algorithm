@@ -27,6 +27,6 @@ int main() {
     vector<int> a = {1, 3, 5, 7, 9, 11};
     int target = 7;
     int pos = binarySearch(a, target);
-    if (pos != -1) cout << "Found at index " << pos << endl;
-    else cout << "Not found\n";
+    cout<<pos;
+    return 0;
 }
